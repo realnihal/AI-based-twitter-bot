@@ -24,10 +24,10 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
 
-consumer_key = "5iZo3lMxiJLMHMJ67XHPlUN7W"
-consumer_secret = "UWhTpmGl8ZeV8XbaSM8mCDdyyahwVtDMTqKv8yUOTtBmLIHsia"
-access_token = "1272256398005432322-QYe05G6uMhGnM98wr8pqt1QY9CDeBx"
-access_token_secret = "C0YlKNvMtby3sF9TzhIf5isVzSfHDk7vnOwX5f4oI5PlS"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
